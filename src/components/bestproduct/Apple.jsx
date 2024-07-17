@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-/* Header가 있는 파일 경로가 저랑 다를 것 같아서 에러 날까봐 노파심에.. 
+/* 한승현 Header가 있는 파일 경로가 저랑 다를 것 같아서 에러 날까봐 노파심에.. 
 갖고 계신 Header 경로 써주시면 됩니다.*/
 import Slider from "react-slick";
 //react-slick을 설치해주셔야 에러가 나지 않습니다.
