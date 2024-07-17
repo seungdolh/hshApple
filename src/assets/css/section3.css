@@ -1,0 +1,60 @@
+.shelf3 {
+    border: 2px solid orange;
+    margin: 0 auto;
+}
+
+.shelf3 h2 {
+    border: 1px solid red;
+    padding-bottom: 10px;
+}
+
+.shelf3 .slick-slide {
+    margin: 0 10px;
+}
+
+.homeslide {
+    border: 1px solid blue;
+    display: inline-flex;
+    position: relative; /*자식에 absolute 줬으니 부모는 relative  */
+    box-shadow: 2px 4px 12px #00000014;
+}
+
+.homeslide img {
+    border-radius: 20px;
+}
+
+.homeslide img:hover {
+    transform: scale(1.01);
+    transition: 0.3s ease;
+}
+
+.card-content-info {
+    position: absolute; /* 이미지 위에 텍스트 올라감 */
+    top: 30px;
+    left: 30px; /* 조상 요소 위치를 기준으로 top, bottom, left, right에서 얼마만큼 떨어질 지 결정한다. */
+}
+
+.card-content-info h3 {
+    font-size: 12px;
+}
+
+.card-content-introduce {
+    margin: 7px 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.shelf3 .slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 50px;
+    color: #f00;
+}
+.shelf3 .slick-prev {
+    left: 50px;
+    z-index: 9999;
+}
+.shelf3 .slick-next {
+    right: 50px;
+}

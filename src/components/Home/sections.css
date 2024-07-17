@@ -1,0 +1,104 @@
+.div1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1239px;
+    height: 258px;
+    margin: 0 auto;
+}
+
+.row_left {
+    width: 600px;
+    padding: 80px 0 64px;
+
+}
+
+.row h1 {
+    color: black;
+    font-size: 43px;
+    font-weight: 600;
+}
+
+.row_left h1 span {
+    color: #6e6e73;
+    font-size: 43px;
+    font-weight: 600;
+}
+
+.row_right {
+    margin-right: 0;
+    height: 258px;
+    padding: 90px 0 54px 0;
+    font-size: 13px;
+}
+
+.ask {
+    display: flex;
+    padding-bottom: 10px;
+    line-height: 1.5714285714;
+}
+
+.shop-chat-container {
+    flex-direction: row;
+}
+
+.shop-chat-title {
+    font-weight: 600;
+    color: black;
+}
+
+.shop-chat-content a:hover {
+    text-decoration: underline;
+}
+
+.nearest_store {
+    display: flex;
+    line-height: 1.5714285714;
+}
+
+.nearest-store-container {
+    flex-direction: row;
+}
+
+#rrimg {
+    margin-right: 8px;
+}
+
+.shop-chat-content img {
+    padding-left: 3px;
+}
+
+.shelf2 {
+    padding-top: 10px;
+    display: flex;
+    margin: 0 auto;
+    height: 148px;
+}
+
+.shelf2_div {
+    padding: 10px;
+}
+
+.shelf2 img {
+    max-height: 80px;
+}
+
+.shelf2_div p {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.shelf2_div a {
+    color: black;
+    text-decoration: none;
+}
+
+.shelf2_div a:hover {
+    text-decoration: underline;
+}

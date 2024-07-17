@@ -1,0 +1,25 @@
+@charset "utf-8";
+@font-face {
+    font-family: "AppleFont";
+    src: url("../font/SF-Pro.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background: #f5f5f7; */
+    font-family: "AppleFont";
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 100%: 부모 태그의 100%를 사용함. 
+100vh는 부모 태그와는 상관없이 보이는 Viewport Height의 100%를 다 씀.
+*/

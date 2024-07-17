@@ -1,0 +1,42 @@
+header ul {
+    max-width: 1024px;
+    display: flex;
+    list-style-type: none;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: space-between;
+    height: 44px;
+    font-size: 12px;
+}
+
+header ul li img{
+    max-height: 16px;
+}
+
+header li{
+    color: rgba(0, 0, 0, .8);
+    margin: 10px;
+    font-weight: bold;
+}
+
+header li:hover{
+    text-decoration: none;
+}
+
+.hovered {
+    height: auto; /* 호버 시 전체 목록 표시 */
+    overflow: visible; /* 스크롤바 숨김 */
+    opacity: 1;
+}
+
+.hovered li {
+    white-space: pre-line;
+    background-color: white;
+    padding: 10px 15px;
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+}
